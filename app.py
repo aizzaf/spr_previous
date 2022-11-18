@@ -62,7 +62,7 @@ def extract_rb_features(bin_increment,image,myu,f):
     return bin_list
 
 
-img = cv2.imread('0.jpg')
+img = cv2.imread('312.jpg')
 a = extract_rb_features(1.5,img,1.12*(10**-6),0.00304)
 a = np.array(a, dtype=np.float32)/10.0
 print(a)
